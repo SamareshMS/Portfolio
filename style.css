@@ -45,6 +45,7 @@ section{
     width: 500px;
     align-items: center;
     margin: auto;
+    padding-top: 5px;
 }
 
 #navigation span a{
