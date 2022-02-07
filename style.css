@@ -1,0 +1,224 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    background-color: #9e9b9b29;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+section{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 12vh;
+}
+
+
+/* header */
+
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(image/header_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+}
+
+#navigation span a{
+    transition: color 1s;
+}
+
+#navigation span a:hover{
+    color: rgb(168, 167, 167);
+}
+
+#header-icons{
+    display: flex;
+    margin-top: -1vh;
+    justify-content: center;
+}
+
+#github{
+    margin-left: 1vw;
+}
+
+#header-name h1{
+    color: white;
+    text-align: center;
+    margin-top: 25vh;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* About */
+
+#about{
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 0vh;
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin:auto;
+}
+
+
+#my-image img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    /* margin-left: 41vw; */
+    margin-top: -13vh;
+}
+
+#about-text-container{
+    margin-top: -10vh;
+}
+
+/* Skills */
+
+#skills h1{
+    text-align: center;
+}
+
+#skill-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+#skill-container div{
+    margin: 0 70px;
+}
+
+.skill-image{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.skill-title{
+    margin-left: -36px;
+}
+
+#skill-container .card{
+    margin-top: 3vh;
+}
+
+/* Education */
+
+#education{
+    width: 75%;
+}
+
+#education h1{
+    text-align: center;
+}
+
+#education-container{
+    position: relative;
+}
+
+#education-container .card{
+    display: flex;
+    position: relative;
+    width: 55%;
+    margin-bottom: 2vh;
+}
+
+#education-container .card:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 23%;
+    right: 6.3%;
+    border-radius: 50%;
+    background-color: red;
+    width: 0.5rem;
+    height: 0.5rem;
+    z-index: 1;
+}
+
+#education-container .card:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 23%;
+    left: -16.8%;
+    border-radius: 50%;
+    background-color: red;
+    width: 0.5rem;
+    height: 0.5rem;
+    z-index: 1;
+}
+
+#education-container .card:nth-child(2n){
+    left: 60%;
+}
+
+.education-logo{
+    margin-right: 2vw;
+    width: 12vw;
+    height: 12vw;
+}
+
+.divider{
+    position: absolute;
+    width: 0;
+    border: 3px dashed skyblue;
+    height: 90%;
+    top: 6%;
+    left: 51%;
+}
+
+.traveller{
+    position: sticky;
+    top: 24%;
+    /* transform: rotate(90deg); */
+    z-index: 2;
+    margin-top: -14px;
+    
+}
+
+.traveller img{
+    height: 2rem;
+    position: relative;
+    left: -1rem;    
+}
+
+/* Projects */
+
+#projects{
+    margin-bottom: 150px;
+}
+
+.project{
+    margin-top: 30px;
+}
+
+
