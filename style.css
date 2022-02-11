@@ -200,7 +200,7 @@ section{
 .traveller{
     position: sticky;
     top: 24%;
-    /* transform: rotate(90deg); */
+    transform: rotate(135deg);
     z-index: 2;
     margin-top: -14px;
     
@@ -221,5 +221,9 @@ section{
 .project{
     margin-top: 30px;
 }
+
+/* .card-body::after{
+    content: '10.00';
+} */
 
 
