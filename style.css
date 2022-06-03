@@ -53,7 +53,8 @@ section{
 }
 
 #navigation span a:hover{
-    color: rgb(168, 167, 167);
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 #header-icons{
